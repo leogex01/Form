@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        <h1 id="title">Survey Project</h1>
+    </title>
+
+
+    <form id="survey-form">
+</head>
+
+<body>
+    <h1 id="title">Registration Form</h1>
+
+
+    <div class="container">
+        <form id="survey-form" action='https://fcc-registration-form.com'>
+            <section>
+                <fieldset>
+                    <legend align="right">
+                        <h1>User Information</h1>
+                    </legend>
+                    <p>Please fill out this form with the required information.</p>
+                    <form>
+                        <label for="name" id="name-label">Enter Your Full Name: <input type="text" id="name" name="name" placeholder="Name here" required /></label>
+                        <label for="email" id="email-label">Enter Your Email: <input type="email" id="email" name="email" placeholder="Email here" required /></label>
+                        <label for="number" id="number-label">Create a New Password: <input type="number" id="number" name="number" min="1" max="5" placeholder="Password here" required /></label>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend align="right">
+                        <h3>Past Survey Info</h3>
+                    </legend>
+                    <label for="dropdown" class="dropdown">How did you hear about us?</label>
+                    <select name="referrer" id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Search page</option>
+                    <option value="2">Survey's For Cash.com</option>
+                    <option value="3">Survey's For Profit Forum</option>
+                    <option value="4">Other</option>
+         </select><br>
+                    <label> <h4 class="radio">Have you ever actually won the prize promised in surveys?</h4>
+                    <label><input class="radio" type="radio" name="prizeWin" value="0">No</label>
+                    <label><input class="radio" type="radio" name="prizeWin" value="1">Yes</label><br>
+                    </label><br>
+
+                    <label><h3 class="dropdown">Which 'rewards'were you offered?</h3>
+                    <label><input class="click" type="checkbox" name=”rewards″ value=”ps2“>PlayStation2 </label>
+                    <label><input class="click" type="checkbox" name="rewards" value="macbook">MacBook </label>
+                    <label><input class="click" type="checkbox" name="rewards" value="MP3player">Mp3Player</label>
+                    <label><input class="click" type="checkbox" name=”rewards″ value=”other“>Other </label>
+                    </label>
+
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend align="right">
+                        <h3>Feedback</h3>
+                    </legend>
+                    <p>Please leave feedback:</p>
+                    <textarea id="feedback" type="text" name="feedback" rows="5" cols="70">
+         </textarea></label>
+                </fieldset>
+
+                <input type="submit" id="submit" value="Submit" />
+                </form>
+    </div>
+    <footer>
+        <p>&copy;2021 chris geralds</p>
+</body>

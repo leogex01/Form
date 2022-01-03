@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: system-ui;
+    background: #ff6200;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
+    background-color: #ff6290;
+}
+
+#title {
+    color: #444418;
+}
+
+fieldset {
+    border: solid;
+    border-color: #ff6290;
+    color: black;
+}
+
+.click {
+    margin-left: 5px;
+}
+
+.dropdown {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 150px;
+    padding-top: 0;
+    justify-content: center;
+}
+
+.radio {
+    display: inline-block;
+}
